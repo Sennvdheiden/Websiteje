@@ -1,0 +1,24 @@
+body{
+  margin:0;
+}
+header{
+  background-color: #bfbfbf;
+  border: solid #737373;
+  border-width: 5px;
+  height: 200px;
+  font-size: 80px;
+  font-family: Geneva;
+  text-align: right;
+  padding: 20px;
+}
+div{
+  display: flex;
+}
+nav{
+  background-color:aqua;
+  width: 20vw;
+}
+article{
+  background-color: #cc00cc;
+  width: 80vw;
+}
