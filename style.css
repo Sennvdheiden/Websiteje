@@ -2,23 +2,34 @@ body{
   margin:0;
 }
 header{
+  color: #737373;
   background-color: #bfbfbf;
   border: solid #737373;
   border-width: 5px;
   height: 200px;
   font-size: 80px;
   font-family: Geneva;
-  text-align: right;
+  text-align: left;
   padding: 20px;
 }
 div{
   display: flex;
 }
 nav{
-  background-color:aqua;
-  width: 20vw;
+  background-color: #bfbfbf;
+  border: solid #737373;
+ border-top-width: 0px;
+  width: 20%;
 }
 article{
-  background-color: #cc00cc;
-  width: 80vw;
+  background-color: #bfbfbf;
+  width: 60%;
+  border-top-width: 0px;
+  border: solid #737373;
+  font-family: Geneva;
+}
+footer{
+  background-color: #bfbfbf;  
+  border-width: 5px;
+  border: solid #737373;
 }
