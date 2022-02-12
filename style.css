@@ -1,35 +1,21 @@
-body{
-  margin:0;
+body,html{
+  margin: 0;
+  padding: 0;
 }
+
 header{
-  color: #737373;
-  background-color: #bfbfbf;
-  border: solid #737373;
-  border-width: 5px;
-  height: 200px;
-  font-size: 80px;
-  font-family: Geneva;
-  text-align: left;
-  padding: 20px;
+  width: 100%;
+  height: 70px;
+  background-color: #282828;
 }
-div{
-  display: flex;
-}
-nav{
-  background-color: #bfbfbf;
-  border: solid #737373;
- border-top-width: 0px;
-  width: 20%;
-}
-article{
-  background-color: #bfbfbf;
-  width: 60%;
-  border-top-width: 0px;
-  border: solid #737373;
-  font-family: Geneva;
-}
-footer{
-  background-color: #bfbfbf;  
-  border-width: 5px;
-  border: solid #737373;
+
+h1{
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+  font-family: Alfa Slab One, cursive;
+  color: #39ca74;
+
 }
